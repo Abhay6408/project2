@@ -1,0 +1,102 @@
+#navlist{
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    
+   
+}
+.navcontainer{
+    width: 100vw;
+    /* background-color: bisque; */
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    min-height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+nav{
+   width: 100%;
+   padding: 15px;
+}
+#logo{
+     font-size: 2rem;
+     font-weight: 100;
+     color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 5px;
+}
+.content{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: blue;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+#leftbox{
+    gap: 20px;
+}
+#rightbox{
+    gap: 20px;
+}
+
+#gulabjamun{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#kheer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#rightbox img{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+}
+#rightbox2 img{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+}
+#lefttext{
+    font-size: 1.3rem;
+}
+#leftboxrecipe{
+    font-size: 1.1rem;
+}
+#righttext{
+    font-size: 1.3rem;
+}
+#rightboxrecipe{
+    font-size: 1.1rem;
+}
+.footer{
+    margin-top: 10px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
